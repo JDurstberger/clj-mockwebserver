@@ -1,4 +1,7 @@
-{
+{:deps
+ {clj-http                           {:mvn/version "3.12.3"}
+  com.squareup.okhttp3/mockwebserver {:mvn/version "4.9.0"}}
+
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps  {io.github.cognitect-labs/test-runner
